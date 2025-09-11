@@ -39,6 +39,15 @@
 // 组合式API，我们不能通过this访问组件实例，所以Vue Router给我们提供了一些组合式函数。
 // 过useRouter()和useRoute()来访问路由器实例和当前路由。
 
+// 6. router 和 route
+// 常常以router作为路由器实例提及。即由 createRouter() 返回的对象。在组合式 API 中它可以通过调用 useRouter() 来访问。在选项式 API 中，它可以通过 this.$router 来访问。
+// 当前路由会以 route 被提及。基于不同 API 风格的组件，它可以通过 useRoute() 或 this.$route 来访问。
+
+// 7. RouterView 和 RouterLink
+// 组件 RouterView 和 RouterLink 都是全局注册的，因此它们不需要在组件模板中导入。但你也可以通过局部导入它们，例如 import { RouterLink } from 'vue-router'。
+// 在模板中，组件的名字可以是 PascalCase 风格或 kebab-case 风格的。Vue 的模板编译器支持两种格式，因此 <RouterView> 和 <router-view> 通常是等效的。此时应该遵循你自己项目中使用的约定。
+// 如果使用 DOM 内模板，那么需要注意：组件名字必须使用 kebab-case 风格且不支持自闭合标签。因此你不能直接写 <RouterView />，而需要使用 <router-view></router-view>。
+
 import './assets/stylesA.css'
 
 import { createApp } from 'vue'
