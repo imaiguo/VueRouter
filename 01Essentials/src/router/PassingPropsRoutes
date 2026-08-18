@@ -1,0 +1,15 @@
+import { createRouter, createWebHistory } from 'vue-router'
+
+import User from  '../views/UserProp.vue'
+
+const routes = [
+  { path: '/user/:id', component: User, props: true },
+  { path: '/html/PassingProps.html', redirect: '/user/102'}
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
+export default router

@@ -13,6 +13,6 @@
     <a href="html/NamedViews.html" target="_blank">7. 命名视图</a><br/>
     <a href="html/RedirectAndAlias.html" target="_blank">8. 重定向和别名</a><br/>
     <a href="html/PassingProps.html" target="_blank">9. 路由组件传参</a><br/>
-    <a href="html/ActiveLinks.html" target="_blank">10. 匹配当前路由的链接</a><br/>
-    <a href="html/HistoryMode.html" target="_blank">11. 不同的历史模式</a><br/>
+    <!-- <a href="html/ActiveLinks.html" target="_blank">10. 匹配当前路由的链接</a><br/>
+    <a href="html/HistoryMode.html" target="_blank">11. 不同的历史模式</a><br/> -->
 </template>
