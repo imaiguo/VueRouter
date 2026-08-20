@@ -26,8 +26,8 @@ const router = createRouter({
 
 router.beforeEach((to, from) => {
   console.log("Router beforeEach")
-  console.log(to)
   console.log(from)
+  console.log(to)
 
   return true
 

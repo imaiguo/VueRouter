@@ -45,8 +45,8 @@
 // })
 
 import { createApp } from 'vue'
-import NavigationGuards from './components/NavigationGuards.vue'
-import router from './router/NavigationGuards'
+import NavigationGuards from './components/MetaComponent.vue'
+import router from './router/MetaRouter'
 
 const app = createApp(NavigationGuards)
 

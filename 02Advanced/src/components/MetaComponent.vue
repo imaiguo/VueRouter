@@ -5,10 +5,13 @@ import { RouterView } from 'vue-router';
 
 <template>
   <div class="greetings">
-    <nav>
-      <RouterLink to="/">Go to Home</RouterLink> <br/>
-      <RouterLink to="/about">Go to About</RouterLink>
-    </nav>
+  <p>
+    <router-link to="/posts">/posts</router-link>
+    <br />
+    <router-link to="/user">/user</router-link>
+    <br />
+    <router-link to="/id">/id</router-link>
+  </p>
     <h3>
       You’ve successfully created a project with Vite Vue 3. What's next?
     </h3>
