@@ -5,6 +5,10 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/html/NavigationGuards.html',
+      redirect: '/'
+    },
+    {
       path: '/',
       name: 'home',
       component: HomeView,
@@ -24,6 +28,11 @@ router.beforeEach((to, from) => {
   console.log("Router beforeEach")
   console.log(to)
   console.log(from)
+
+  return true
+
+  // if(to.path == "/about")
+  //   return true
   // 返回 false 以取消导航
   return false
 })
