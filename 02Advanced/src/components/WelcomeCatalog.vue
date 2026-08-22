@@ -7,9 +7,8 @@
     <a href="html/NavigationGuards.html" target="_blank">1. 导航守卫</a><br/>
     <a href="html/Meta.html" target="_blank">2. 路由元信息</a><br/>
     <a href="html/DataFetching.html" target="_blank">3. 数据获取</a><br/>
-
-    <a href="html/RouterViewSlot.html" target="_blank">4. RouterView 插槽</a><br/>
-    <a href="html/Transitions.html" target="_blank">5. 过渡动效</a><br/>
+    <a href="html/CompositionAPI.html" target="_blank">4. 组合式API</a><br/>
+    <a href="html/Transitions.html" target="_blank">5. 插槽和过渡动效</a><br/>
     <a href="html/ScrollBehavior.html" target="_blank">6. 滚动行为</a><br/>
     <a href="html/LazyLoading.html" target="_blank">7. 路由懒加载</a><br/>
     <a href="#" >8. 类型化路由 (v4.1.0+)</a><br/>

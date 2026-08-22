@@ -10,7 +10,7 @@ import { RouterView } from 'vue-router';
       <RouterLink to="/about">Go to About</RouterLink>
     </nav>
     <h3>
-      You’ve successfully created a project with Vite Vue 3. What's next?
+      路由懒加载
     </h3>
   </div>
   <!-- <RouterView></RouterView> -->

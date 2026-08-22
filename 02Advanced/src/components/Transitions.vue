@@ -10,17 +10,15 @@ import { RouterView } from 'vue-router';
       <RouterLink to="/about">Go to About</RouterLink>
     </nav>
     <h3>
-      You’ve successfully created a project with Vite Vue 3. What's next?
+      插槽与过度动效
     </h3>
   </div>
-  <!-- <RouterView></RouterView> -->
   <router-view v-slot="{ Component, route }">
       <!-- 重点：绑定 key="route.path"，路由变化key变化，才会触发transition -->
       <transition name="fade" mode="out-in">
         <component :is="Component" :key="route.path" />
       </transition>
   </router-view>
-
 </template>
 
 <style>

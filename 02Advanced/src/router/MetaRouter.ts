@@ -27,7 +27,7 @@ const routes = [
     path: '/user',
     component: PostsNew,
     // 只有经过身份验证的用户才能创建帖子
-    meta: { requiresAuth: false },
+    meta: { requiresAuth: true },
   },
   {
     path: '/id',
