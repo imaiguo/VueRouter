@@ -11,8 +11,8 @@
     <a href="html/Transitions.html" target="_blank">5. 插槽和过渡动效</a><br/>
     <a href="html/ScrollBehavior.html" target="_blank">6. 滚动行为</a><br/>
     <a href="html/LazyLoading.html" target="_blank">7. 路由懒加载</a><br/>
-    <a href="#" >8. 类型化路由 (v4.1.0+)</a><br/>
-    <a href="#">9. 扩展 RouterLink</a><br/>
+    <a href="html/Routetype.html" target="_blank">8. 类型化路由</a><br/>
+    <a href="html/ExtendingRouterLink.html" target="_blank">9. 扩展 RouterLink</a><br/>
     <a href="html/NavigationFailures.html" target="_blank">10. 导航故障</a><br/>
     <a href="html/DynamicRouting.html" target="_blank">11. 动态路由</a><br/>
 </template>

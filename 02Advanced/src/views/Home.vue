@@ -2,7 +2,7 @@
   <div class="page">
     <h2>Home页面</h2>
     <div class="long">
-      <p v-for="i in 100" :key="i">home内容 {{i}}</p>
+      <p v-for="i in 10" :key="i">home内容 {{i}}</p>
     </div>
   </div>
 </template>

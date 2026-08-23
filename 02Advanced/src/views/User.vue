@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h2>About页面</h2>
+    <h2>User页面</h2>
     <div class="long">
       <p v-for="i in 10" :key="i">about内容 {{i}}</p>
     </div>
