@@ -12,15 +12,18 @@
   },
   "dependencies": {
     "vue": "rc",
-    "vue-router": "^5.2.0"
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^24.13.3",
+    "@unhead/vue": "^3.4.0",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/tsconfig": "^0.9.1",
     "npm-run-all2": "^9.0.2",
     "typescript": "~6.0.0",
+    "unplugin-vue-markdown": "^32.1.1",
+    "unplugin-vue-router": "^0.19.1",
     "vite": "^8.1.5",
     "vite-plugin-vue-devtools": "^8.1.5",
     "vue-tsc": "^3.3.7"

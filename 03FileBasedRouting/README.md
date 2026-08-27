@@ -17,3 +17,16 @@
 ```sh
 > npm run build
 ```
+
+
+```bash
+# 先卸载 v5
+> npm uninstall vue-router
+# 安装 v4 最新版
+> npm install vue-router@^4.6.0
+# 再安装插件
+> npm install -D unplugin-vue-router
+# 支持markdown解析
+> npm install unplugin-vue-markdown -D
+> npm install @unhead/vue -D
+```
