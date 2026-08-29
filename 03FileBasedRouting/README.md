@@ -29,4 +29,8 @@
 # 支持markdown解析
 > npm install unplugin-vue-markdown -D
 > npm install @unhead/vue -D
+>
+> npm create vue@3.6.0-rc.5 vue-pinia-demo --template vue
+> cd vue-pinia-demo
+> npm install
 ```
